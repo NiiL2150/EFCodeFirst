@@ -489,5 +489,17 @@ namespace EFCodeFirst.View
                                      Bronze = bronze.Value
                                  }).ToList();
         }
+
+        private void buttonSportsmanCountry_Click(object sender, EventArgs e)
+        {
+            //TODO: create a button that displays top sportsman from each country
+        }
+
+        private void buttonSportCountry_Click(object sender, EventArgs e)
+        {
+            //TODO: create a button that displays top sport from each country
+        }
+
+        //TODO: create advanced sportsmen search
     }
 }

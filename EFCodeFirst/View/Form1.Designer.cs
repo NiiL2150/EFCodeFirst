@@ -94,6 +94,7 @@
             this.buttonSportsmanCountry.TabIndex = 5;
             this.buttonSportsmanCountry.Text = "Top sportsmen by countries";
             this.buttonSportsmanCountry.UseVisualStyleBackColor = true;
+            this.buttonSportsmanCountry.Click += new System.EventHandler(this.buttonSportsmanCountry_Click);
             // 
             // buttonSportCountry
             // 
@@ -103,6 +104,7 @@
             this.buttonSportCountry.TabIndex = 6;
             this.buttonSportCountry.Text = "Top sports by countries";
             this.buttonSportCountry.UseVisualStyleBackColor = true;
+            this.buttonSportCountry.Click += new System.EventHandler(this.buttonSportCountry_Click);
             // 
             // buttonTopCountry
             // 
